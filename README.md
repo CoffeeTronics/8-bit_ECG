@@ -17,5 +17,5 @@ peak, but less than the squared positive peak. This could be problematic as the 
 # Version 2:
 The second version also reads the ECG signal with the integrated ADC, and uses the ADC peripherals derivative feature to determine the ADC error (adc_error), 
 if the value is less than 0, it is saved as 0. If it is positive, it is saved as the original value but cast as an uint8_t so that levels can be compared using 
-a DAC (Q-71 has 2x8-bit and 1x10-bit DAC). A threshold is automatically determined by a defined ratio of the largest R-spike seen.
+a DAC (Q-71 has 2x8-bit and 1x10-bit DAC). A threshold is automatically determined by a defined ratio of the largest R-spike seen.  
 ***Note: This version does NOT use the computationally expensive sqrt twice.***
