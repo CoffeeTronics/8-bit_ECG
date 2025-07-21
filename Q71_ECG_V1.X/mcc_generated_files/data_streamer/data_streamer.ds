@@ -1,0 +1,7 @@
+D,1,1,adc_result
+-D,1,1,adc_error
+W,1,1,adc_error_sq
+B,1,1,adc_error_sq_sqrt_sqrt
+
+
+  
